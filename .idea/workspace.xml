@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a532b9-84fc-415e-936e-d2a3c20612ee" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lara-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lara-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -109,6 +117,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jPymzTyMmcZfH3YR0mv9xGGrJZ" />
@@ -138,6 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603720186535</updated>
       <workItem from="1603720188842" duration="3017000" />
+      <workItem from="1604492302026" duration="1378000" />
+      <workItem from="1604494265908" duration="5742000" />
     </task>
     <servers />
   </component>
@@ -145,9 +157,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2047" y="283" width="647" height="490" key="find.popup" timestamp="1603978755636">
+    <state x="2047" y="283" width="647" height="490" key="find.popup" timestamp="1604579284405">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2047" y="283" width="647" height="490" key="find.popup/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1603978755636" />
+    <state x="2047" y="283" width="647" height="490" key="find.popup/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1604579284405" />
   </component>
 </project>

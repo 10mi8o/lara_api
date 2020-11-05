@@ -93,6 +93,7 @@ class ArticlesController extends Controller
     {
         $article = Article::find($id);
         $article->delete();
-        return redirect('api/articles');
+        //後で検討
+        //return redirect('api/articles');
     }
 }
