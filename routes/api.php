@@ -17,6 +17,12 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 //
+
+//For LaravelPassport
+Route::post('login', [\Laravel\Passport\Http\Controllers\AccessTokenController::class, 'issueToken'])
+    ->middleware(['api-login', 'throttle']);
+
+//For ArticlesAPI
 Route::group(['middleware' => ['api']], function(){
     Route::options('articles', function() {
         return response()->json();
